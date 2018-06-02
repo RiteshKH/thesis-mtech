@@ -1,1 +1,4 @@
-# thesis-mtech
+IIT Kanpur M.Tech Aerospace Engg
+===========
+
+M.Tech Thesis
