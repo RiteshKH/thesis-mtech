@@ -1,0 +1,220 @@
+\chapter{Conclusion and future work}
+
+We developed a system for detecting and following a human subject autonomously via a quadrotor with only vision based techniques. The payload over the quadcopter was kept to a minimum by offloading high computation tasks to a remote server with a GPU. The system was made robust to occlusion and/or presence of other subjects via KCF tracking and Kalman filtering. The proposed system was tested to be able to function in a Gazebo simulation.
+
+Limitations of the proposed system include the requirement of a high speed and bandwidth connection to the remote server machine to transport images and similar data. Hence, functioning over WiFi offered us suboptimal results. Another limitation is that the initial frame seen by the quadcopter should only contain the target human subject, since the system cannot decide between different subjects in the first frame. Also, the system is not yet robust to heavy jerks in the camera video feed, as well as it fails when it loses the sight of the human target for longer periods of time.
+
+\newpage
+\section{Future Work}
+
+"One of the virtues of working on simulation is the lack
+of real world problems one has to face irrespective of how
+accurately the simulation models the real world, since the
+real world is just broken." Besides the implementation on
+a real world quadrotor, the following things can be worked
+on as extensions to this project:
+\begin{itemize}
+	\item The model can be edited to include a gimbaled
+	camera which would reduce the adverse effect on
+	the camera image due to the motion of the quad.
+	\item Exploration of trajectory generation techniques
+	and maybe a move towards optimal trajectory-
+	generation.
+	\item Other filters from the kalman family can be explored.
+\end{itemize}
+
+
+
+
+
+
+
+
+%%%%%%%Note%%%%%%%%%%%
+%site:
+%   https://www.sharelatex.com/learn/
+%   Bibliography_management_with_bibtex
+
+%%%  and see latex example
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%Just in vague way OK means introduce reference not give reference in content
+%\newpage
+%\makeatletter
+%\setlength{\@fptop}{10pt}
+%\makeatother
+%\bibliography{ifacconf}
+%{\section*{Bibliography}
+%	
+%	\begin{minipage}{0.04\linewidth}
+%		{[1]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Juhng-Perng Su and Kuo-Hsien Hsia, Height Estimation and
+%		Image Tracking Control of an Indoor Quad-Rotor Craft via Multi-
+%		Vision Systems, International Journal of Computer, Consumer and
+%		Cool (IJ3C), vol. 2, no. 4, 2013
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[2]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Tayyad Naseer, Jurgen Sturm and Daniel Cremers, FollowMe:
+%		Person Following and Gesture Recognition with a Quadrocopter,
+%		2013IEEE/RSJ International Conference on Intelligent Robots and
+%		Systems(IROS), November, 3-7, 2013
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[3]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Thomas Muller and Markus Muller Vision-based drone flight
+%		control and crowd or riot analysis with efficient color histogram
+%		based tracking, SPIE 8020, Airborne Intelligence, Surveillance,
+%		Reconnaissance (ISR) Systems and Applications VIII, 80200R, May,
+%		25, 2011
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[4]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Ashraf Qadir, Jeremiah Neubert, and William Semke, On-Board
+%		Visual Tracking with Unmanned Aircraft System (UAS), Infotech
+%		Aerospace 2011, March, 29-31, 2011
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[5]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Imamura, Yusuke, Shingo Okamoto, and Jae Hoon Lee. ”Human
+%		tracking by a multi-rotor drone using HOG features and linear
+%		SVM on images captured by a monocular camera.” Proceedings
+%		of the International MultiConference of Engineers and Computer
+%		Scientists. Vol. 1. 2016.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[6]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Comaniciu, Dorin, Visvanathan Ramesh, and Peter Meer. ”Kernel-
+%		based object tracking.” IEEE Transactions on pattern analysis and
+%		machine intelligence 25.5 (2003): 564-577.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[7]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Weng, Shiuh-Ku, Chung-Ming Kuo, and Shu-Kang Tu. ”Video
+%		object tracking using adaptive Kalman filter.” Journal of Visual
+%		Communication and Image Representation 17.6 (2006): 1190-1208.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[8]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Liu, Wei, et al. ”Ssd: Single shot multibox detector.” European
+%		conference on computer vision. Springer, Cham, 2016.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[9]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Redmon, Joseph, et al. ”You only look once: Unified, real-time
+%		object detection.” Proceedings of the IEEE conference on computer
+%		vision and pattern recognition. 2016.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[10]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Caelles, Sergi, et al. ”One-shot video object segmentation.” CVPR
+%		2017. IEEE, 2017.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[11]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Tensorflow ”Tensorflow Object-detection API”
+%		https://github.com/tensorflow/models/tree/master/research/object detectio
+%		2017.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[12]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Ren, Shaoqing, et al. ”Faster r-cnn: Towards real-time object
+%		detection with region proposal networks.” Advances in neural
+%		information processing systems. 2015.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[13]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Achtelik, Markus, et al. ”Visual tracking and control of a quad-
+%		copter using a stereo camera system and inertial sensors.” Mecha-
+%		tronics and automation, 2009. icma 2009. international conference
+%		on. IEEE, 2009.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[14]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Bartk, Roman, and Adam Vykovsk. ”Any object tracking and
+%		following by a flying drone.” Artificial Intelligence (MICAI), 2015
+%		Fourteenth Mexican International Conference on. IEEE, 2015.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[15]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Dang, Chi-Tinh, et al. ”Vision based ground object tracking us-
+%		ing AR. Drone quadrotor.” Control, Automation and Information
+%		Sciences (ICCAIS), 2013 International Conference on. IEEE, 2013.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[16]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Kalal, Zdenek, Krystian Mikolajczyk, and Jiri Matas. ”Tracking-
+%		learning-detection.” IEEE transactions on pattern analysis and
+%		machine intelligence 34.7 (2012): 1409-1422.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[17]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Lucas, Bruce D., and Takeo Kanade. ”An iterative image registra-
+%		tion technique with an application to stereo vision.” (1981): 674-
+%		679.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[18]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Henriques, Joo F., et al. ”High-speed tracking with kernelized
+%		correlation filters.” IEEE Transactions on Pattern Analysis and
+%		Machine Intelligence 37.3 (2015): 583-596.
+%	\end{minipage}
+%	\begin{minipage}{0.04\linewidth}
+%		{[19]}
+%	\end{minipage}
+%	\begin{minipage}{0.96\linewidth}
+%		Vojir, Tomas, ”Open Source implementation of High speed tracking with kernelized correlation filters.”
+%		Github:https://github.com/vojirt/kcf
+%	\end{minipage}
+
+
+%@inproceedings{caelles2017one,
+%	title={One-shot video object segmentation},
+%	author={Caelles, Sergi and Maninis, Kevis-Kokitsi and Pont-Tuset, Jordi and Leal-Taix{\'e}, Laura and Cremers, Daniel and Van Gool, Luc},
+%	booktitle={CVPR 2017},
+%	year={2017},
+%	organization={IEEE}
+%}
+
+
+
+
+

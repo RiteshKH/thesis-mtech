@@ -1,0 +1,55 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example showing scaling changes detection of a corner\relax }}{8}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ORB features\relax }}{9}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces HOG features\relax }}{10}{figure.caption.25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces CNN training process\relax }}{10}{figure.caption.27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces R-CNN\relax }}{11}{figure.caption.29}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SPP-net\relax }}{12}{figure.caption.31}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Faster R-CNN object detecttion pipeline\relax }}{14}{figure.caption.34}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces YOLO model\relax }}{15}{figure.caption.37}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces YOLO vs SSD\relax }}{17}{figure.caption.44}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces YOLO vs SSD(Based on Object size)\relax }}{18}{figure.caption.45}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ROS working\relax }}{20}{figure.caption.48}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Our computation graph\relax }}{21}{figure.caption.50}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Image of 12*12 passed through 3 conv layers\relax }}{24}{figure.caption.55}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Depicting overlap in feature maps for overlapping image regions\relax }}{25}{figure.caption.56}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Image with GT boxes, 8*8 feature map, 4*4 feature map\relax }}{25}{figure.caption.58}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces A comparison between two single shot detection models: SSD and YOLO\relax }}{27}{figure.caption.60}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Object detection along with rate on remote server\relax }}{28}{figure.caption.62}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Stereoscopic vision, resulting in different disparities depending on depth\relax }}{29}{figure.caption.65}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Disparity field in the stereo image pair \relax }}{31}{figure.caption.69}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Disparity calculation \relax }}{32}{figure.caption.70}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Distance estimation results \relax }}{34}{figure.caption.77}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces ORB features in image frame\relax }}{35}{figure.caption.79}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Matched ORB features in consecutive frames\relax }}{36}{figure.caption.83}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces KCF Tracked human subject\relax }}{43}{figure.caption.99}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces PID controller\relax }}{47}{figure.caption.111}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Cascaded controller overview\relax }}{50}{figure.caption.126}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Simulation models of quadrotor and human subject\relax }}{52}{figure.caption.128}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Experimental setup in Gazebo\relax }}{54}{figure.caption.131}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Results of distance estimation by Kalman filter as well as orb feature method against ground truth\relax }}{55}{figure.caption.135}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Trajectory of the human subject\relax }}{56}{figure.caption.136}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Quadrotor path for 3m distance, 1.5m height\relax }}{56}{figure.caption.138}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Distance of quadrotor for 3m setting, 1.5m height\relax }}{57}{figure.caption.139}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Quadrotor path for 5m distance, 1.5m height\relax }}{57}{figure.caption.141}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Distance of quadrotor for 5m setting, 1.5m height, without Kalman filter\relax }}{58}{figure.caption.142}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Distance of quadrotor for 5m setting, 1.5m height, with Kalman filter\relax }}{58}{figure.caption.143}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Bounding box positions for 5m distance, 1.5m height\relax }}{59}{figure.caption.144}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Confidence graph for 5m distance, 1.5m height\relax }}{59}{figure.caption.145}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Quadrotor path for 5m distance, 3m height\relax }}{60}{figure.caption.147}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Distance of quadrotor at 5m distance, 3m height\relax }}{60}{figure.caption.148}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Bounding box positions for 5m distance, 3m height\relax }}{61}{figure.caption.149}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Confidence graph for 5m distance, 3m height\relax }}{61}{figure.caption.150}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Quadrotor path for 10m distance, 1.5m height\relax }}{62}{figure.caption.152}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Distance of quadrotor at 10m distance, 1.5m height\relax }}{62}{figure.caption.153}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Bounding box positions for 10m distance, 1.5m height\relax }}{63}{figure.caption.154}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Confidence graph for 10m distance, 1.5m height\relax }}{63}{figure.caption.155}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Quadrotor path for different trajectory, 2x velocity\relax }}{64}{figure.caption.157}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Bounding box positions for for different trajectory, 2x velocity\relax }}{64}{figure.caption.158}
+\addvspace {10\p@ }

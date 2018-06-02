@@ -1,0 +1,27 @@
+\chapter{Previous Work}
+
+In recent years, the problem of human tracking using drones has received a lot of attention. Juhng-Perng Su et al.~\cite{su2013height} and Tayyad Naseer et al.~\cite{naseer2013followme} use a stereo camera or a depth camera for multi-rotor drone tracking of a human by detecting a targeted object. 
+
+Work by Thomas Muller and Markus Muller ~\cite{muller2011vision} uses monocular cameras to track a human who havedifferent color against background colors. A highly efficient tracking procedure is presented which relies on well-known color histograms but uses them in a novel manner. This procedure bases on the calculation of a color weighting vector representing the significances of object colors like a kind of an object’s color finger print.
+
+Work by Ashraf Qadir et al.~\cite{qadir2011board} focuses on an unmanned miniature plane tracking an object by detecting the image similar to an image called template in two-dimensional images captured by a monocular camera. The algorithm uses zero mean normalized cross correlation to detect and locate an object in the image. Detection and tracking is autonomously carried out on the payload computer and the system is able to work in two different methods. The first method starts detecting and tracking using a stored image patch. The second method allows the operator on the ground to select the interest object for the UAV to track.
+
+Another work by Imamura ~\cite{imamura2016human} tracks a human while detecting a human without the differences of colors and the movements of a target by making use of Histograms of Oriented Gradients (HOG) features and linear Support Vector Machine (SVM) for ROI classification. A method was proposed that  a  multi-rotor  drone  can  track  a  human by processing  the two-dimensional images captured by a   monocular camera installed  on  the  multi-rotor  drone. Furthermore, it can detect human  without  the  differences  of  colors  and  movements  of  a 
+target  by  using  the  Histograms  of  Oriented  gradients  (HOG) 
+features and the linear Support Vector Machine (SVM). Then, it was shown that  the multi-rotor drone could track a human by the proposed method.
+
+In `\cite{comaniciu2003kernel} Comaniciu et al. introduce a new framework for
+efficient tracking of nonrigid objects by spatially masking the target with an isotropic kernel. The masking induces spatially-smooth similarity functions suitable for gradient-based optimization, hence,the target localization problem
+can be formulated using the basin of attraction of the local maxima.
+
+In ~\cite{weng2006video} Weng et al. proposed an adaptive Kalman filtering algorithm to effectively track the moving object in a video frame sequence. In initialization, a moving object selected by the user is segmented and the dominant color is extracted from the segmented target. In tracking step, a motion model is constructed to set the system model of adaptive Kalman filter firstly. Then, the dominant color of the moving object in HSI color space will be used as feature to detect the moving object in the consecutive video frames. The detected result is fed back as the measurement of adaptive Kalman filter and the estimate parameters of adaptive Kalman filter are adjusted by occlusion ratio adaptively. 
+
+Liu et al. and Redmon et al. have worked on methods using deep learning ~\cite{liu2016ssd,redmon2016you} to detect a bounding box around an object in an image. Named SSD, the approach discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes.
+
+Achtelik et. al. in ~\cite{achtelik2009visual} work on a system where motion of a quadcopter is stably controlled based on visual feedback and measurements of inertial sensors. Active markers were finely designed to improve visibility under various perspectives as well as robustness towards disturbances in the image-based pose estimation. Moreover, position-and heading controllers for the quadcopter were implemented to show the system's capabilities. 
+
+Bartak et. al. ~\cite{bartak2015any} utilize a computer-vision approach called tracking-learning-detection (TLD) to track an arbitrary object selected by a user in the videostream going from the front camera of the drone. Information about location of the tracked object is then used to guide the drone using the proportional-integral-derivative (PID) controller. The method was implemented in software FollowMe.
+
+Dang et. al. ~\cite{dang2013vision} perform a systematic formulation of a closed-loop control system design for tracking a ground object using ardrone platform. 
+In the PhD thesis of Kalal~\cite{kalal2012tracking} the authors propose a novel tracking framework (TLD) that explicitly decomposes the long-term tracking task into tracking, learning, and detection, where the tracker follows the object from frame to frame. In a seminal work by
+Lucas and Kanade~\cite{lucas1981iterative}, the authors present a new image registration technique that uses spatial intensity gradient information to direct the search for the position that yields the best match in stereo image pairs.

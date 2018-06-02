@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: title.aux
+A level-1 auxiliary file: certificate.aux
+A level-1 auxiliary file: statement.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: dedication.aux
+A level-1 auxiliary file: acknowledgement.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: related.aux
+A level-1 auxiliary file: background.aux
+A level-1 auxiliary file: rostensorflow.aux
+A level-1 auxiliary file: objdetect.aux
+A level-1 auxiliary file: controller.aux
+A level-1 auxiliary file: gazebo.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Warning--empty publisher in qadir2011board
+Warning--empty journal in lucas1981iterative
+You've used 26 entries,
+            1876 wiz_defined-function locations,
+            630 strings with 8808 characters,
+and the built_in function-call counts, 6769 in all, are:
+= -- 640
+> -- 273
+< -- 0
++ -- 102
+- -- 76
+* -- 456
+:= -- 923
+add.period$ -- 26
+call.type$ -- 26
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 357
+empty$ -- 691
+format.name$ -- 76
+if$ -- 1666
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 20
+newline$ -- 81
+num.names$ -- 23
+pop$ -- 122
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 257
+stack$ -- 0
+substring$ -- 410
+swap$ -- 135
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 64
+width$ -- 28
+write$ -- 234
+(There were 2 warnings)

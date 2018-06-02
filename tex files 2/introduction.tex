@@ -1,0 +1,31 @@
+\chapter{Introduction}
+	Quadrotors with the ability to detect and follow objects, especially humans have been researched and developed actively in recent years. These have a plentiful application in enhancing security and surveillance system, monitoring activities in manufacturing plants, traffic, and can be used in various daily life activity. Although there 
+	are already commercially available quadrotors which are being used by professionals for shooting videos of adventure sports. Yet the current systems rely on the use of a mobile phone or some other beacon for correct tracking and positioning of the human, except for the one introduced by DJI with its Phantom 4 drone, which being a commercial product, is closed source.
+	
+	A human-following robot requires several techniques such as human’s target detection, robot control algorithm and obstacles avoidance. Human detection and tracking is a difficult task in general due to abrupt human object motion, object occlusion and object scale change, and changing object appearance due to changes in illumination and
+	viewpoint, non-rigid deformations, intra-class variability in shape and posture, and potential camera movement, non-overlapping field of views between cameras. Furthermore, movement of camera with tilt and jerks accompanied by motion of the quadrotor make it difficult to achieve a fix over the position of a mobile target such as a human as the quad
+	may lose sight of the target. Furthermore, state of the art techniques for detection and tracking use deep learning and require high computation powers and dedicated hardware to function at a reasonable rate.
+
+
+%	\section{Motivation}
+%		Most of the modern recommendation systems we come across use hybrid filtering, i.e., take into consideration a user's choices and cross-reference it against large amounts of user data finding similar interests. Even though this method works fine for some cases, there is a scope for improvement.
+%
+%		Recommending music to a user based on her pre-set choices may not be a success if she is in a totally different \emph{mood}. We can determine the \emph{mood} of a user by analyzing her recent history. The recent history considered to predict the mood is kept rolling forward, so as to accommodate the fact that a user's mood changes with time and music. This mood cross-referenced with content and collaborative filtering tend to give better recommendations.
+%
+%	\section{The Problem}
+%		
+%		The mood of a music enthusiast can be determined by the songs she has heard recently. The mood usually changes gradually over time and can be modeled by the genre of the songs. Mood once modeled can be compared with those of other similar users and thus help conclude the preference of a song after a set of given songs (which determine the mood) as heard by other ``similar" users.
+
+	\section{Contributions of this Thesis}
+	\label{sec:Contributions of this Thesis}
+		There are two main contributions of this thesis. The first is to detect the object based on the user's interest, especially a human, and keep tracking the object in the vision frame till desired. The second is to build a quadrotor control algorithm which keeps on following the object by aligning itself in such a way so that the object is never out of the vision range. This could perform well in crowded as well as slightly occluded conditions.
+		
+
+	\section{Organization of this Thesis}
+	\label{sec:Organization of this Thesis}
+		The rest of this thesis is organized as follows. Chapter 2 presents the previous work done in this area. Chapter 3 discusses the various background work related to vision algorithms, stereo processing and other techniques. These are required to understand the basis of our vision based system. Chapter 4 gives us the basic ideas about the workings of ROS and Tensorflow modules, on which most of the project is developed. Chapter 5 then discusses the details of the object detection and tracking methods, distance estimation and filtering techniques. Chapter 6 presents the object follow and control algorithm for the quadrotor and their implementation techniques. Chapter 7 then discusses the experimentation setup, simulation tools used, and presents the results that was achieved. Finally Chapter 8 summarises the whole work and also talks about what can be done further.
+		
+
+
+
+

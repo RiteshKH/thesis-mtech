@@ -1,0 +1,119 @@
+\documentclass[12pt,a4paper]{book}
+
+% margins
+\usepackage[left=35mm,top=25mm,right=25mm,bottom=25mm]{geometry}
+
+% centering captions
+\usepackage[justification=centering]{caption}
+
+% mathematical expressions
+\usepackage{mathtools}
+\usepackage{textcomp}
+\everymath{\displaystyle}
+
+%\usepackage{algorithm2e}
+\usepackage{pdfpages}
+
+% to write the date in the desired format
+\usepackage{datetime}
+
+% for including figures
+%\usepackage{graphics}
+
+% for including figures
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+
+%\usepackage[sorting=none]{biblatex}
+% for doublespacing singlespacing etc.
+\usepackage{setspace}
+
+\graphicspath{{img/}}
+
+\newdateformat{monthyear}{\monthname[\THEMONTH], \THEYEAR}
+\newcommand*\rfrac[2]{{}^{#1}\!/_{#2}}
+
+\def\title{Vision based object detection and tracking on quadrotor platform}
+\def\degree{Master of Technology}
+\def\author{Ritesh Kumar Halder}
+\def\rollno{16101061}
+\def\advisor{Dr. Mangal Kothari}
+\def\department{Department of Aerospace Engineering}
+\def\institute{Indian Institute of Technology Kanpur}
+
+\hypersetup{
+	bookmarks=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=0,
+	bookmarksnumbered=true,
+	hypertexnames=false,
+	colorlinks=true,
+	linkcolor={black},
+	citecolor={black},
+	urlcolor={black},
+	breaklinks=true,
+	pdfauthor={\author},
+	pdftitle={\title}
+}
+
+%\addbibresource{references.bib}
+
+\begin{document}
+	\frontmatter
+	\include{title}
+	
+	\thispagestyle{empty}
+	\pagestyle{plain}
+%	\cleardoublepage
+	\include{certificate}
+%	\includepdf{certificate_signed.pdf}
+	\include{statement}
+
+	\pagenumbering{roman}
+	\pagestyle{plain}
+	\setcounter{page}{4}
+	\addcontentsline{toc}{chapter}{Abstract}
+	
+	\onehalfspace
+	\include{abstract}
+	\include{dedication}
+	\include{acknowledgement}
+	
+	\doublespacing
+	\setcounter{secnumdepth}{3}
+	\setcounter{tocdepth}{1}
+	\tableofcontents
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of Tables}
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of Figures}
+	
+	\mainmatter
+	\doublespacing
+	\pagenumbering{arabic}
+	\pagestyle{myheadings}
+	
+	\include{introduction}
+	\include{related}
+	\include{background}
+	\include{rostensorflow}
+	\include{objdetect}
+	\include{controller}
+	\include{gazebo}
+	\include{conclusion}
+	
+%	\appendix 
+%	\include{appendix}
+	
+	\backmatter
+	\singlespacing
+	
+	\addcontentsline{toc}{chapter}{Bibliography}
+	\bibliographystyle{ieeetr}
+	\bibliography{references}
+%	\printbibliography
+\end{document}
+
+
+

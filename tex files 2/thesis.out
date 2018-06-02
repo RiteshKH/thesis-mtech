@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{Item.9}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.11}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter*.12}{List of Figures}{}% 3
+\BOOKMARK [0][-]{chapter.13}{1 Introduction}{}% 4
+\BOOKMARK [1][-]{section.14}{1.1 Contributions of this Thesis}{chapter.13}% 5
+\BOOKMARK [1][-]{section.15}{1.2 Organization of this Thesis}{chapter.13}% 6
+\BOOKMARK [0][-]{chapter.16}{2 Previous Work}{}% 7
+\BOOKMARK [0][-]{chapter.17}{3 Background of vision based detection}{}% 8
+\BOOKMARK [1][-]{section.18}{3.1 Traditional vision algorithms}{chapter.17}% 9
+\BOOKMARK [1][-]{section.26}{3.2 Deep Neural Networks}{chapter.17}% 10
+\BOOKMARK [1][-]{section.39}{3.3 Relevant literature}{chapter.17}% 11
+\BOOKMARK [1][-]{section.43}{3.4 Comparison Results}{chapter.17}% 12
+\BOOKMARK [0][-]{chapter.46}{4 ROS and Tensorflow}{}% 13
+\BOOKMARK [1][-]{section.47}{4.1 Overview of ROS}{chapter.46}% 14
+\BOOKMARK [1][-]{section.49}{4.2 Basics of Tensorflow}{chapter.46}% 15
+\BOOKMARK [0][-]{chapter.51}{5 Object detection and tracking using the Tensorflow API}{}% 16
+\BOOKMARK [1][-]{section.52}{5.1 Object detection as Image Classification problem}{chapter.51}% 17
+\BOOKMARK [1][-]{section.61}{5.2 Remote machine object detection node}{chapter.51}% 18
+\BOOKMARK [1][-]{section.63}{5.3 Stereo image processing}{chapter.51}% 19
+\BOOKMARK [1][-]{section.74}{5.4 Distance estimation}{chapter.51}% 20
+\BOOKMARK [1][-]{section.84}{5.5 Kalman Filtering}{chapter.51}% 21
+\BOOKMARK [1][-]{section.96}{5.6 Object of interest tracking}{chapter.51}% 22
+\BOOKMARK [0][-]{chapter.100}{6 Quadrotor based object follow control algorithm}{}% 23
+\BOOKMARK [1][-]{section.101}{6.1 Quadrotor Model}{chapter.100}% 24
+\BOOKMARK [1][-]{section.109}{6.2 Controller Design}{chapter.100}% 25
+\BOOKMARK [0][-]{chapter.127}{7 Environment simulations and results}{}% 26
+\BOOKMARK [1][-]{section.129}{7.1 Experiments and results}{chapter.127}% 27
+\BOOKMARK [0][-]{chapter.159}{8 Conclusion and future work}{}% 28
+\BOOKMARK [1][-]{section.160}{8.1 Future Work}{chapter.159}% 29
+\BOOKMARK [0][-]{section.160}{Bibliography}{}% 30

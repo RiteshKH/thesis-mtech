@@ -1,0 +1,66 @@
+\contentsline {chapter}{Abstract}{iv}{Item.9}
+\contentsline {chapter}{List of Tables}{ix}{chapter*.11}
+\contentsline {chapter}{List of Figures}{xii}{chapter*.12}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}
+\contentsline {section}{\numberline {1.1}Contributions of this Thesis}{2}{section.14}
+\contentsline {section}{\numberline {1.2}Organization of this Thesis}{2}{section.15}
+\contentsline {chapter}{\numberline {2}Previous Work}{3}{chapter.16}
+\contentsline {chapter}{\numberline {3}Background of vision based detection}{7}{chapter.17}
+\contentsline {section}{\numberline {3.1}Traditional vision algorithms}{7}{section.18}
+\contentsline {subsection}{\numberline {3.1.1}\emph {SIFT(Scale invariant feature transform)}}{7}{subsection.19}
+\contentsline {subsection}{\numberline {3.1.2}\emph {SURF(Speeded-Up Robust Features)}}{8}{subsection.21}
+\contentsline {subsection}{\numberline {3.1.3}\emph {ORB(Oriented FAST and rotated BRIEF)}}{8}{subsection.22}
+\contentsline {subsection}{\numberline {3.1.4}\emph {HOG(Histogram of oriented gradients)}}{9}{subsection.24}
+\contentsline {section}{\numberline {3.2}Deep Neural Networks}{10}{section.26}
+\contentsline {subsection}{\numberline {3.2.1}\emph {Region-based Convolutional Neural Networks(R-CNN):}}{11}{subsection.28}
+\contentsline {subsection}{\numberline {3.2.2}\emph {Spatial Pyramid Pooling(SPP-net):}}{12}{subsection.30}
+\contentsline {subsection}{\numberline {3.2.3}\emph {Fast R-CNN}}{13}{subsection.32}
+\contentsline {subsection}{\numberline {3.2.4}\emph {Faster R-CNN}}{13}{subsection.33}
+\contentsline {subsection}{\numberline {3.2.5}\emph {YOLO(You only Look Once):}}{14}{subsection.36}
+\contentsline {subsection}{\numberline {3.2.6}\emph {Single Shot Detector(SSD):}}{15}{subsection.38}
+\contentsline {section}{\numberline {3.3}Relevant literature}{16}{section.39}
+\contentsline {subsection}{\numberline {3.3.1}ImageNet Classification with Deep Convolutional Neural Networks}{16}{subsection.40}
+\contentsline {section}{\numberline {3.4}Comparison Results}{17}{section.43}
+\contentsline {chapter}{\numberline {4}ROS and Tensorflow}{19}{chapter.46}
+\contentsline {section}{\numberline {4.1}Overview of ROS}{19}{section.47}
+\contentsline {section}{\numberline {4.2}Basics of Tensorflow}{20}{section.49}
+\contentsline {chapter}{\numberline {5}Object detection and tracking using the Tensorflow API}{23}{chapter.51}
+\contentsline {section}{\numberline {5.1}Object detection as Image Classification problem}{23}{section.52}
+\contentsline {subsection}{\numberline {5.1.1}Sliding Window Detector}{24}{subsection.53}
+\contentsline {subsection}{\numberline {5.1.2}Reducing redundant calculations}{24}{subsection.54}
+\contentsline {subsection}{\numberline {5.1.3}Training Methodology for modified network}{25}{subsection.57}
+\contentsline {subsection}{\numberline {5.1.4}Working of the SSD Model}{26}{subsection.59}
+\contentsline {section}{\numberline {5.2}Remote machine object detection node}{27}{section.61}
+\contentsline {section}{\numberline {5.3}Stereo image processing}{29}{section.63}
+\contentsline {subsection}{\numberline {5.3.1}Stereo Image Capture}{29}{subsection.64}
+\contentsline {subsection}{\numberline {5.3.2}Disparity Estimation}{31}{subsection.68}
+\contentsline {subsection}{\numberline {5.3.3}Working module}{33}{subsection.71}
+\contentsline {section}{\numberline {5.4}Distance estimation}{34}{section.74}
+\contentsline {subsection}{\numberline {5.4.1}Using Stereo camera images}{34}{subsection.75}
+\contentsline {subsection}{\numberline {5.4.2}Using ORB features from monocular camera image}{35}{subsection.78}
+\contentsline {section}{\numberline {5.5}Kalman Filtering}{37}{section.84}
+\contentsline {section}{\numberline {5.6}Object of interest tracking}{41}{section.96}
+\contentsline {subsection}{\numberline {5.6.1}Fast Kernel Correlation}{42}{subsection.97}
+\contentsline {chapter}{\numberline {6}Quadrotor based object follow control algorithm}{45}{chapter.100}
+\contentsline {section}{\numberline {6.1}Quadrotor Model}{45}{section.101}
+\contentsline {subsection}{\numberline {6.1.1}Kinematics}{45}{subsection.102}
+\contentsline {subsection}{\numberline {6.1.2}Dynamics}{46}{subsection.106}
+\contentsline {section}{\numberline {6.2}Controller Design}{47}{section.109}
+\contentsline {subsection}{\numberline {6.2.1}PID control}{47}{subsection.110}
+\contentsline {subsection}{\numberline {6.2.2}Implementation in Quadrotors}{48}{subsection.113}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Outer Loop}{48}{subsubsection.114}
+\contentsline {subsubsection}{\numberline {6.2.2.2}Inner Loop}{49}{subsubsection.120}
+\contentsline {subsection}{\numberline {6.2.3}Control Node}{50}{subsection.125}
+\contentsline {chapter}{\numberline {7}Environment simulations and results}{51}{chapter.127}
+\contentsline {section}{\numberline {7.1}Experiments and results}{51}{section.129}
+\contentsline {subsection}{\numberline {7.1.1}Experiments}{51}{subsection.130}
+\contentsline {subsection}{\numberline {7.1.2}Specifications}{53}{subsection.132}
+\contentsline {subsection}{\numberline {7.1.3}Results}{55}{subsection.134}
+\contentsline {subsubsection}{\numberline {7.1.3.1}Results for 3m distance, 1.5m height}{56}{subsubsection.137}
+\contentsline {subsubsection}{\numberline {7.1.3.2}Results for 5m distance, 1.5m height}{57}{subsubsection.140}
+\contentsline {subsubsection}{\numberline {7.1.3.3}Results for 5m distance, 3m height}{60}{subsubsection.146}
+\contentsline {subsubsection}{\numberline {7.1.3.4}Results for 10m distance, 1.5m height}{62}{subsubsection.151}
+\contentsline {subsubsection}{\numberline {7.1.3.5}Results for different human trajectory path at 3m distance, 2x velocity}{64}{subsubsection.156}
+\contentsline {chapter}{\numberline {8}Conclusion and future work}{65}{chapter.159}
+\contentsline {section}{\numberline {8.1}Future Work}{66}{section.160}
+\contentsline {chapter}{Bibliography}{67}{section.160}
